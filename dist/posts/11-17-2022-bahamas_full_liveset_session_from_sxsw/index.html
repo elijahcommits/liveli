@@ -3,7 +3,16 @@
 	<head>
 		<!-- Global Metadata --><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/liveli/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/liveli/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="194x194" href="/liveli/favicon-194x194.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/liveli/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/liveli/favicon-16x16.png">
+<link rel="manifest" href="/liveli/site.webmanifest">
+<link rel="mask-icon" href="/liveli/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/liveli/mstile-144x144.png">
+<meta name="theme-color" content="#2b5797">
 <meta name="generator" content="Astro v1.6.10">
 
 <!-- Primary Meta Tags -->
@@ -24,6 +33,7 @@
 <meta property="twitter:title" content="Bahamas :: Full Liveset Session from SXSW">
 <meta property="twitter:description" content="Bahamas is the solo project of Toronto-based guitarist Afie Jurvanen">
 <meta property="twitter:image" content="https://elijahcommits.github.io/placeholder-social.jpg">
+
 
 		
 	<link rel="stylesheet" href="/liveli/assets/about.4252a9b4.css" /><script type="module">class a extends HTMLElement{connectedCallback(){this.videoId=this.getAttribute("videoid");let t=this.querySelector(".lty-playbtn");if(this.playLabel=t&&t.textContent.trim()||this.getAttribute("playlabel")||"Play",this.style.backgroundImage||(this.posterUrl=`https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg`,a.addPrefetch("preload",this.posterUrl,"image"),this.style.backgroundImage=`url("${this.posterUrl}")`),t||(t=document.createElement("button"),t.type="button",t.classList.add("lty-playbtn"),this.append(t)),!t.textContent){const e=document.createElement("span");e.className="lyt-visually-hidden",e.textContent=this.playLabel,t.append(e)}this.addEventListener("pointerover",a.warmConnections,{once:!0}),this.addEventListener("click",e=>this.addIframe())}static addPrefetch(t,e,c){const n=document.createElement("link");n.rel=t,n.href=e,c&&(n.as=c),document.head.append(n)}static warmConnections(){a.preconnected||(a.addPrefetch("preconnect","https://www.youtube-nocookie.com"),a.addPrefetch("preconnect","https://www.google.com"),a.addPrefetch("preconnect","https://googleads.g.doubleclick.net"),a.addPrefetch("preconnect","https://static.doubleclick.net"),a.preconnected=!0)}addIframe(){const t=new URLSearchParams(this.getAttribute("params")||[]);t.append("autoplay","1");const e=document.createElement("iframe");e.width=560,e.height=315,e.title=this.playLabel,e.allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",e.allowFullscreen=!0,e.src=`https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${t.toString()}`,this.append(e),this.classList.add("lyt-activated"),this.querySelector("iframe").focus()}}customElements.define("lite-youtube",a);

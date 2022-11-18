@@ -15,7 +15,16 @@ const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/liveli/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/liveli/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="194x194" href="/liveli/favicon-194x194.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/liveli/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/liveli/favicon-16x16.png">
+<link rel="manifest" href="/liveli/site.webmanifest">
+<link rel="mask-icon" href="/liveli/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/liveli/mstile-144x144.png">
+<meta name="theme-color" content="#2b5797">
 <meta name="generator" content={Astro.generator} />
 
 <!-- Primary Meta Tags -->
@@ -36,3 +45,4 @@ const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
+
