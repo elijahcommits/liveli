@@ -37,9 +37,14 @@ const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
 									})}
 								</time> -->
 
+								
 								<a href={post.url} class="post_link_title">{post.frontmatter.title}</a>
 
-								{post.frontmatter.youtubeID && <YouTube id={post.frontmatter.youtubeID} />}
+								{
+									post.frontmatter.youtubeID && 
+									<YouTube id={post.frontmatter.youtubeID} />
+								}
+								
 
 							</li>
 
@@ -61,6 +66,7 @@ const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
 	}
 	ul li {
 		/* display: flex; */
+		text-align: center;
 	}
 	ul li + li {
 		margin-top: 3rem;

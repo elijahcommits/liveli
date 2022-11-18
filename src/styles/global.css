@@ -8,7 +8,7 @@ body {
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
-	text-align: left;
+	/* text-align: left; */
 	background-color: #fff;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
@@ -27,6 +27,7 @@ b {
 }
 a {
 	color: #3273dc;
+	text-decoration: none;
 }
 nav a {
 	margin-right: 10px;
