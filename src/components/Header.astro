@@ -23,10 +23,16 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../config';
 		margin: 0em 0 2em;
 	}
 	.site_title {
-		margin: 0.5em 0;
 		display: inline;
 	}
-	.site_subtitle {
-		display: inline;
+	@media screen and (min-width: 600px) {
+		.site_subtitle {
+			display: inline;
+		}
 	}
+	@media screen and (max-width: 600px) {
+		.site_subtitle {
+			margin-top: 0;
+			margin-bottom: 0.5em;
+		}
 </style>
