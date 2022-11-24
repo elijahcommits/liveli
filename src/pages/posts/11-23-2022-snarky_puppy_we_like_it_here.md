@@ -1,12 +1,12 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Snarky Puppy - We Like it Here"
-description: "The full concert from the epic album We Like it Here released on February 25, 2014 by Snarky Puppy."
+description: "The full concert from the epic album 'We Like it Here' released on February 25, 2014 by Snarky Puppy."
 pubDate: "Nov 23 2022"
 youtubeID: "z4IrNFUaEg0"
 ---
 
-The full concert from the epic album We Like it Here released on February 25, 2014 by Snarky Puppy. All the songs are on YouTube, but separated, so YouTube user Ledones nicely joined everything for us. Enjoy!
+The full concert from the epic album 'We Like it Here' released on February 25, 2014 by Snarky Puppy. All the songs are on YouTube, but separated, so YouTube user Ledones nicely joined everything for us. Enjoy!
 
 ---
 
