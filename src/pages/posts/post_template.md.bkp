@@ -1,7 +1,7 @@
 ---
 layout: "../../layouts/BlogPost.astro"
 title: "Title"
-description: "Lorem ipsum dolor sit amet"
-pubDate: "Nov 16 2022"
+description: "Short description goes here."
+pubDate: "Dec 3 2022"
 youtubeID: "icWS_4vv58U"
 ---
