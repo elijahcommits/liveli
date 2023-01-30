@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Jeff Buckley - Lover, You Should've Come Over (Live on Musiqueplus, May 28, 1995)"
+title: "Jeff Buckley - Lover, You Should've Come Over (May 28, 1995)"
 description: "Jeff Buckley, everyone. May he rest in peace."
 pubDate: "Jan 20 2023"
 youtubeID: "F_eLuk4RjIQ"
